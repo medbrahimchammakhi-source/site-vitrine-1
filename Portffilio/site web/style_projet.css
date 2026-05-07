@@ -1,0 +1,54 @@
+
+
+
+
+body {
+    background-image: url('image/htmlv1.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+    background-size: 500px 500px;
+    font-family: "Candara", sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    font-family: "Book Antiqua", serif;
+    font-size: 32px;
+    text-align: center;
+    color: navy;
+    text-shadow: 3px 3px 10px black;
+}
+
+h2 {
+    color: darkred;
+    border-bottom: 2px solid black;
+    margin-top: 30px;
+    padding-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: whitesmoke;
+}
+tr:nth-child(even) {
+    background-color: beige; 
+}
+
+strong {
+    font-weight: bolder;
+    text-transform: capitalize;
+}

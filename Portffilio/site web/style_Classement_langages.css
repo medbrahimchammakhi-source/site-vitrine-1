@@ -1,0 +1,47 @@
+body {
+    background-color: #DCDCDC;
+}
+
+table {
+    height: auto;
+    width: auto;
+    margin-left: 300px;
+    border-collapse: collapse; /* Pour fusionner les bordures */
+}
+
+caption {
+    font-family: "Book Antiqua", serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+th {
+    background-color: #708090;
+    color: white;
+    font-family: "Gill Sans MT", sans-serif;
+    font-size: 26px;
+    text-align: center;
+    border: solid black 3px;
+    padding: 10px;
+}
+
+td {
+    font-family: "Cambria", serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    border: solid black 3px;
+    padding: 8px;
+}
+
+/* Couleur ligne paire */
+tbody tr:nth-child(even) {
+    background-color: #B9D3EE;
+}
+
+/* Couleur ligne impaire */
+tbody tr:nth-child(odd) {
+    background-color: #9FB6CD;
+}
