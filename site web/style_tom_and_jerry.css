@@ -1,0 +1,43 @@
+
+table {
+    margin-left: 160px;
+    
+}
+
+
+td {
+    width: 200px;
+    
+}
+
+
+#image1 {
+    height: 150px;
+    width: 300px;
+    margin-left: 250px;
+}
+
+
+#image2 {
+    height: 400px;
+    width: 400px;
+}
+
+
+p {
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #F0141C;
+    color: white;
+}
+
+h1 {
+    font-family: "Book Antiqua", serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #F0141C;
+    color: white;
+    text-shadow: 3px 3px 10px black;
+    padding: 10px;
+}

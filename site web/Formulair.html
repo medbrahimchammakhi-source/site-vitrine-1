@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="Mohammed Ibrahim Chammakhi et Adem Ben Salem">
+    <title>Formulair</title>
+    <link rel="stylesheet" href="style_Formulair.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Vos coordonnées</legend>
+            <div>
+                <label>Nom :</label>
+                <input type="text" name="nom" placeholder="Votre nom" value="votre nom">
+            </div>
+            <br>
+            <div>
+                <label>Prénom :</label>
+                <input type="text" name="prenom" placeholder="Votre prénom" value="votre prénom">
+            </div>
+            <br>
+            <div>
+                <label>Date de naissance :</label>
+                <input type="text" name="naissance" placeholder="jj/mm/aaaa" value="jj/mm/aaaa">
+            </div>
+            <br>
+            <div>
+            <label>Mail :</label>
+            <input type="email" name="email" placeholder="votre mail" value="votre mail">
+            </div>
+
+            <br>
+            <div>
+                <label>Votre site :</label>
+                <input type="text" name="site">
+            </div>
+            <br>
+            <div>
+                <label>Code :</label>
+                <input type="text" name="code">
+            </div>
+
+            <br>
+            <div>
+                <label>Genre :</label>
+                <span><input type="radio" name="genre" value="homme"> Homme</span>
+                <span><input type="radio" name="genre" value="femme"> Femme</span>
+            </div>
+
+            <br>
+
+            <div>
+                <label>Pays :</label>
+                <select name="pays">
+                    <option value="tunisie" selected>tunisie</option>
+                    <option value="france">France</option>
+                    <option value="italie">Italie</option>
+                    <option value="maroc">Maroc</option>
+                    <option value="algérie">Algérie</option>
+                    <option value="autres">Autres</option>
+                </select>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Vos gouts</legend>
+            <div>
+                <input type="checkbox">Tarte aux fraises à la créme d'ammandes <br>
+                <input type="checkbox">Tarte aux prunes <br>
+                <input type="checkbox">Tarte rustique aux mirabelles de Lorraine, noisettes et miel <br>
+            </div>
+            <br>
+            <div>
+                <textarea name="textarea" placeholder="Decrive vos gouts en detail"></textarea>
+            </div>  
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Envouer nous vos gouts</legend>
+            <input type="file">
+            <br>
+            <br>
+            <input type="reset">    <input type="submit">
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
